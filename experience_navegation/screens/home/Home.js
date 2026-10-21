@@ -8,7 +8,10 @@ export default function Login({ navigation }) {
 
         <View style={styles.container}>
 
-        <Text>Oi bbzete raulzete daquele naipet pq nois é mo ref</Text>
+        <Button
+        title='pag3'
+        onPress={() => navigation.navigate('Pag3')}>
+        </Button>
             
         </View>
     );

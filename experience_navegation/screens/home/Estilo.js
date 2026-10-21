@@ -4,6 +4,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         padding: 25,
+        alignSelf: 'center',
         backgroundColor: '#f5f5f5',
     },
     imagem: {
