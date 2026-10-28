@@ -13,9 +13,9 @@ export default function Pag3({ navigation }) {
                 </Text>
 
                 <Text style={styles.tituloSecao}>O que o define</Text>
-                <Text style={styles.item}>Liderança: inspira os Autobots pelo exemplo e pela confiança.</Text>
-                <Text style={styles.item}>Coragem: enfrenta grandes desafios sem abandonar seus princípios.</Text>
-                <Text style={styles.item}>Companheirismo: valoriza a equipe e protege quem precisa.</Text>
+                <Text style={[styles.item, styles.itemVermelho]}>Liderança: inspira os Autobots pelo exemplo e pela confiança.</Text>
+                <Text style={[styles.item, styles.itemAzul]}>Coragem: enfrenta grandes desafios sem abandonar seus princípios.</Text>
+                <Text style={[styles.item, styles.itemDourado]}>Companheirismo: valoriza a equipe e protege quem precisa.</Text>
 
                 <Text style={styles.tituloSecao}>Sua missão</Text>
                 <Text style={styles.exemplo}>

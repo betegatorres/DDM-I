@@ -13,10 +13,10 @@ export default function Pag5({ navigation }) {
                 </Text>
 
                 <Text style={styles.tituloSecao}>Dois caminhos opostos</Text>
-                <Text style={styles.item}>
+                <Text style={[styles.item, styles.itemVermelho]}>
                     Autobots: seguem Optimus Prime e defendem a liberdade, a cooperação e a proteção dos inocentes.
                 </Text>
-                <Text style={styles.item}>
+                <Text style={[styles.item, styles.itemAzul]}>
                     Decepticons: são liderados por Megatron e buscam impor seu poder sobre Cybertron e outros mundos.
                 </Text>
 

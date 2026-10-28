@@ -13,13 +13,13 @@ export default function Pag4({ navigation }) {
                 </Text>
 
                 <Text style={styles.tituloSecao}>Princípios que orientam suas decisões</Text>
-                <Text style={styles.item}>
+                <Text style={[styles.item, styles.itemVermelho]}>
                     Responsabilidade: entende que o poder deve ser usado para proteger, não para dominar.
                 </Text>
-                <Text style={styles.item}>
+                <Text style={[styles.item, styles.itemAzul]}>
                     Empatia: considera o impacto de suas decisões nos aliados e nos habitantes dos mundos que encontra.
                 </Text>
-                <Text style={styles.item}>
+                <Text style={[styles.item, styles.itemDourado]}>
                     Esperança: continua buscando uma saída mesmo quando o conflito parece não ter fim.
                 </Text>
 
