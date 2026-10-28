@@ -1,0 +1,67 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    container: {
+        flexGrow: 1,
+        alignItems: 'center',
+        paddingHorizontal: 18,
+        paddingVertical: 24,
+        backgroundColor: '#e9eef2',
+    },
+    conteudo: {
+        width: '100%',
+        maxWidth: 560,
+    },
+    sobretitulo: {
+        marginBottom: 8,
+        color: '#b52d36',
+        fontSize: 12,
+        fontWeight: '700',
+        textAlign: 'center',
+    },
+    titulo: {
+        marginBottom: 12,
+        color: '#17304b',
+        fontSize: 28,
+        fontWeight: '700',
+        textAlign: 'center',
+    },
+    texto: {
+        marginBottom: 20,
+        color: '#425466',
+        fontSize: 15,
+        lineHeight: 22,
+        textAlign: 'center',
+    },
+    tituloSecao: {
+        marginTop: 10,
+        marginBottom: 8,
+        color: '#17304b',
+        fontSize: 18,
+        fontWeight: '700',
+        textAlign: 'center',
+    },
+    item: {
+        marginBottom: 10,
+        padding: 12,
+        borderRadius: 6,
+        backgroundColor: '#ffffff',
+        color: '#34475a',
+        fontSize: 14,
+        lineHeight: 20,
+        textAlign: 'center',
+    },
+    exemplo: {
+        marginBottom: 12,
+        padding: 14,
+        borderTopWidth: 3,
+        borderTopColor: '#b52d36',
+        backgroundColor: '#ffffff',
+        color: '#17304b',
+        fontSize: 15,
+        lineHeight: 22,
+        textAlign: 'center',
+    },
+});
+
+export default styles;
